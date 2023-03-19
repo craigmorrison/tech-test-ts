@@ -8,9 +8,9 @@ The goal of this repo is to test the developer's basic knowledge of Typescript, 
 
 Open `./src/userService.ts` and implement the `getUsersWithPopularPosts` function such that:
 
-- it returns users from the provided dataService as an array wrapped in a Promise
-- ensure that each user has a "posts" field that contains all posts by that user
-- the list of users should only include those who have written a "popular" post (any single post with 10 or more comments)
+1. It returns users from the provided dataService as an array wrapped in a Promise
+2. Ensure that each user has a `posts` field that contains all posts by that user
+3. The list of users should only include those who have written a "popular" post (any single post with 10 or more comments)
 
 ## Stretch goal
 

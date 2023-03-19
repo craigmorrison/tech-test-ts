@@ -5,6 +5,8 @@
     "strict": true,
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }
