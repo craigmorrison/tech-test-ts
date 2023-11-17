@@ -1,17 +1,18 @@
-# About
+# Popular Posts
 
-The goal of this repo is to test the developer's basic knowledge of Typescript, Promises and testing.
+A coding excercise.
 
 # Goals
 
-## Primary Goals
+## Main
 
-Open `./src/userService.ts` and implement the `getUsersWithPopularPosts` function such that:
+Implement the `getUsersWithPopularPosts` method in `./src/userService.ts`.
 
-1. It returns users from the provided dataService as an array wrapped in a Promise
-2. Ensure that each user has a `posts` field that contains all posts by that user
-3. The list of users should only include those who have written a "popular" post (any single post with 10 or more comments)
+It should:
 
-## Stretch goal
+1. Return users from the provided dataService as an array wrapped in a Promise.
+2. Only return users who have written a "popular" post, where a popular post is a post with 10 or more comments.
+
+## Optional
 
 Implement unit tests for the `getUsersWithPopularPosts` method.
